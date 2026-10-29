@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReelCut</string>
+    <string name="share_target_label">Mit ReelCut schneiden</string>
+
+    <string name="home_title">Reel automatisch schneiden</string>
+    <string name="home_subtitle">Video wählen → Claude schneidet, setzt Untertitel im Freestyle-Mix und poliert Bild &amp; Ton.</string>
+    <string name="pick_video">Video auswählen</string>
+    <string name="change_video">Anderes Video</string>
+    <string name="no_video_selected">Noch kein Video gewählt. Tipp: Teile ein Video aus der Galerie direkt mit ReelCut.</string>
+    <string name="preset_label">Untertitel-Look</string>
+    <string name="preset_freestyle_mix">Freestyle-Mix</string>
+    <string name="preset_bold_pop">Bold Pop</string>
+    <string name="preset_clean">Clean</string>
+    <string name="preset_karaoke">Karaoke</string>
+    <string name="target_duration_label">Ziellänge</string>
+    <string name="target_duration_auto">Claude entscheidet</string>
+    <string name="target_duration_seconds">%1$d Sekunden</string>
+    <string name="instructions_label">Anweisungen an Claude (optional)</string>
+    <string name="instructions_hint">z. B. „Hook am Anfang betonen, keine Emojis, Produktname groß“</string>
+    <string name="hook_title_label">Hook-Titel in den ersten 2 Sekunden</string>
+    <string name="start_processing">Jetzt schneiden</string>
+    <string name="settings">Einstellungen</string>
+
+    <string name="processing_title">Wird bearbeitet …</string>
+    <string name="stage_uploading">Video wird hochgeladen</string>
+    <string name="stage_queued">In Warteschlange</string>
+    <string name="stage_probing">Video wird analysiert</string>
+    <string name="stage_transcribing">Sprache wird transkribiert</string>
+    <string name="stage_planning">Claude plant Schnitt &amp; Untertitel</string>
+    <string name="stage_rendering">Video wird gerendert</string>
+    <string name="stage_downloading">Ergebnis wird geladen</string>
+    <string name="stage_saving">Wird in Galerie gespeichert</string>
+    <string name="processing_hint">Du kannst die App schließen – die Bearbeitung läuft im Hintergrund weiter und du bekommst eine Benachrichtigung.</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="result_title">Fertig!</string>
+    <string name="result_saved">Gespeichert in Filme/ReelCut</string>
+    <string name="result_duration">Länge: %1$s</string>
+    <string name="share_tiktok">Zu TikTok</string>
+    <string name="share_instagram">Zu Instagram</string>
+    <string name="share_other">Teilen …</string>
+    <string name="caption_copied">Vorgeschlagene Caption in die Zwischenablage kopiert</string>
+    <string name="suggested_caption_label">Vorgeschlagene Caption</string>
+    <string name="copy">Kopieren</string>
+    <string name="new_video">Neues Video</string>
+    <string name="app_not_installed">%1$s ist nicht installiert – Teilen-Dialog wird geöffnet.</string>
+
+    <string name="error_title">Fehler</string>
+    <string name="error_generic">Etwas ist schiefgelaufen: %1$s</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="back">Zurück</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_server_url">Server-URL</string>
+    <string name="settings_server_hint">http://192.168.0.10:8000/</string>
+    <string name="settings_token">API-Token (REELCUT_API_TOKEN)</string>
+    <string name="settings_auto_start">Geteilte Videos sofort verarbeiten</string>
+    <string name="settings_auto_start_desc">Wenn du ein Video mit ReelCut teilst, startet die Bearbeitung ohne Nachfrage mit den gespeicherten Standardwerten.</string>
+    <string name="settings_test_connection">Verbindung testen</string>
+    <string name="settings_connection_ok">Server erreichbar (Planer: %1$s, Modell: %2$s)</string>
+    <string name="settings_connection_failed">Nicht erreichbar: %1$s</string>
+    <string name="save">Speichern</string>
+
+    <string name="notification_channel_name">Videobearbeitung</string>
+    <string name="notification_channel_desc">Fortschritt der Videobearbeitung</string>
+    <string name="notification_processing_title">ReelCut bearbeitet dein Video</string>
+    <string name="notification_done_title">Dein Reel ist fertig</string>
+    <string name="notification_done_text">Tippen zum Ansehen und Teilen</string>
+    <string name="notification_failed_title">Bearbeitung fehlgeschlagen</string>
+</resources>

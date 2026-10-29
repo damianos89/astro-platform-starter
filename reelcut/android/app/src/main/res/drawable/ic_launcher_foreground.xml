@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- phone-shaped frame -->
+    <path
+        android:fillColor="#FFD400"
+        android:pathData="M38,24 h32 a6,6 0 0 1 6,6 v48 a6,6 0 0 1 -6,6 h-32 a6,6 0 0 1 -6,-6 v-48 a6,6 0 0 1 6,-6 z" />
+    <!-- play triangle -->
+    <path
+        android:fillColor="#0F0F14"
+        android:pathData="M48,40 L64,52 L48,64 z" />
+    <!-- scissors cut line -->
+    <path
+        android:strokeColor="#FF2D55"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M26,76 L82,36" />
+</vector>
