@@ -22,8 +22,8 @@ Regelbasierter EA, der Trendwechsel erkennt, innerhalb eines festen Budgets selb
 Alle Werte sind im MetaTrader unter „Eingaben“ änderbar – ohne Programmieren.
 
 **Modus:**
-- `Nur Signal aufs Handy` (Standard): handelt nicht, schickt dir Einstieg, SL, TP und empfohlene Lotgröße.
-- `Automatisch handeln`: eröffnet und schließt selbst. Mit `NurDemokonto = true` (Standard) verweigert der EA den Automatikhandel auf einem Echtgeldkonto.
+- `Nur Signal aufs Handy`: handelt nicht, schickt dir Einstieg, SL, TP und empfohlene Lotgröße.
+- `Automatisch handeln` (Standard): eröffnet und schließt selbst. Mit `NurDemokonto = true` (Standard) verweigert der EA den Automatikhandel auf einem Echtgeldkonto.
 
 ## Einrichtung
 

@@ -21,7 +21,7 @@ enum ENUM_MODUS
   };
 
 input group "Betrieb"
-input ENUM_MODUS      Modus           = MODUS_NUR_SIGNAL; // Modus
+input ENUM_MODUS      Modus           = MODUS_AUTO;       // Modus
 input bool            NurDemokonto    = true;             // Automatik nur auf Demokonto erlauben
 input ENUM_TIMEFRAMES Zeitrahmen      = PERIOD_H1;        // Zeitrahmen der Auswertung
 input long            MagicNumber     = 260711;           // Kennung der EA-Positionen
